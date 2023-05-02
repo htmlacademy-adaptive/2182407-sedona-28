@@ -38,14 +38,14 @@
   top: 0;
   left: calc(50% - 185px / 2);
 }
-@media (min-width: 768px) or (min-width: 1280px) {
+@media (min-width: 768px), (min-width: 1280px) {
   .advantages__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
   }
 }
-@media (min-width: 768px) or (min-width: 1280px) {
+@media (min-width: 768px), (min-width: 1280px) {
   .advantages__item:nth-child(1) {
     grid-column: 1/4;
     grid-row: 1/3;
