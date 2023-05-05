@@ -2,6 +2,17 @@
   font-family: @baseFontFamily;
   font-weight: @baseFontWeightBold;
   font-size: @baseFontSize;
-  line-height: @baselineHeight;
+  line-height: @baseLineHeight;
   color: @black;
+
+  display: flex;
+  flex-direction: row;
+  background-color: @white;
+  height: 56px;
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: calc(50% - @widthLogo / 2);
 }
